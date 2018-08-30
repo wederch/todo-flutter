@@ -30,7 +30,7 @@ android {
         applicationId "com.example.todoflutterapp"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 0.1
+        versionCode 1
         versionName "0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
