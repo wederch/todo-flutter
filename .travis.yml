@@ -10,6 +10,9 @@ before_script:
 - "./flutter/bin/flutter doctor"
 script:
 - "./flutter/bin/flutter test"
+- "cd android"
+- "bundle install"
+- "fastlane internal"
 cache:
   directories:
   - "$HOME/.pub-cache"
