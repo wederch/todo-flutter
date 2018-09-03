@@ -33,7 +33,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-  String _title;
+  String _title = '';
   String _packageName;
   String _version;
   String _buildNumber;
