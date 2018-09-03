@@ -19,6 +19,6 @@ cache:
   - "$HOME/.pub-cache"
 before_install:
 - mkdir -p ~\/Git/
-- openssl aes-256-cbc -K $encrypted_cf9e7a818c63_key -iv $encrypted_cf9e7a818c63_iv
+- openssl aes-256-cbc -K $encrypted_c8720522f6b8_key -iv $encrypted_c8720522f6b8_iv
   -in ./android/api-8716197817448099265-38356-0c0516e0c71a.json.enc -out ~\/Git/api-8716197817448099265-38356-0c0516e0c71a.json
   -d
