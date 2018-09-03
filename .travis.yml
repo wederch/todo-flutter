@@ -8,15 +8,16 @@ addons:
 before_script:
 - git clone https://github.com/flutter/flutter.git -b beta
 - "./flutter/bin/flutter doctor"
+install:
+- "bundle install --gemfile=./android/Gemfile --path ./android"
 script:
 - "./flutter/bin/flutter test"
 - "cd android"
-- "bundle install"
 - "fastlane internal"
 cache:
   directories:
   - "$HOME/.pub-cache"
 before_install:
 - openssl aes-256-cbc -K $encrypted_105bfc7de345_key -iv $encrypted_105bfc7de345_iv
-  -in api-8716197817448099265-38356-0c0516e0c71a.json.enc -out api-8716197817448099265-38356-0c0516e0c71a.json
+  -in ./android/api-8716197817448099265-38356-0c0516e0c71a.json.enc -out ./android/fastlane/api-8716197817448099265-38356-0c0516e0c71a.json
   -d
