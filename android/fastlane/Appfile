@@ -1,2 +1,2 @@
-json_key_file("api-8716197817448099265-38356-0c0516e0c71a.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+json_key_file("~\/Git/api-8716197817448099265-38356-0c0516e0c71a.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
 package_name("ch.wederchr.todoflutterapp") # e.g. com.krausefx.app
