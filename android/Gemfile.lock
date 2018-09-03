@@ -142,7 +142,6 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler
   fastlane
 
 BUNDLED WITH
